@@ -6,8 +6,8 @@ This project investigates the neural and cognitive correlates of visual search s
 ## Folder Structure and Data Description
 This repository contains raw data from various experiments conducted during the study:
 - `SC2-data`: **SC2Replays**, telemetry data extracted from StarCraft II games. These files capture detailed in-game actions and performance metrics.
-- `EEG`: Raw EEG data files in **.mat** format, containing recordings of brain activity with a focus on the N2pc component, which is associated with the allocation of visual attention during the visual search task.
-- `MRI`: A collection of raw MRI data files, including **bval**, **bvec**, **json**, and other standard neuroimaging formats. These files provide structural images of the brain, used to assess white matter integrity through measures like fractional anisotropy (FA).
+- `EEG-data`: Raw EEG data files in **.mat** format, containing recordings of brain activity with a focus on the N2pc component, which is associated with the allocation of visual attention during the visual search task.
+- `MRI-data`: A collection of raw MRI data files, including **bval**, **bvec**, **json**, and other standard neuroimaging formats. These files provide structural images of the brain, used to assess white matter integrity through measures like fractional anisotropy (FA).
 
 ### Details of the Data
 - **Telemetry Data (SC2-data)**: These files were obtained from 30 hours of StarCraft II gameplay by each participant. The data includes metrics like unit selection, hotkey usage, resource collection rates, and more, offering insights into strategic gameplay.
